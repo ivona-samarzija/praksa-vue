@@ -17,8 +17,6 @@
     <div>150,00kn</div>
     <div>Refleksoterapija</div>
     <div>150,00kn</div>
-    <div>Marma terapija lica</div>
-    <div>150,00kn</div>
     <div>Anticelulitna masaža</div>
     <div>130,00kn</div>
     <div class="paket">Paket 5 + 1</div>
@@ -53,8 +51,10 @@
         <div>200,00kn</div>
     </div>
 
-    <h4>Trepavice i obrve</h4>
+    <h4>Tretmani lica</h4>
     <div class="price-wrapper">
+        <div>Marma terapija lica</div>
+        <div>150,00kn</div>
         <div>Lash lift</div>
         <div>150,00kn</div>
         <div>Farbanje obrva hennom</div>
@@ -67,20 +67,33 @@
 </template>
 <style>
     h3{
+        color: black;
        text-align: center;
        padding-bottom: 2em;
     }
     .wrapper-bg{
+        color: black;
         margin: 3em;
         background-color: rgba(255, 255, 255, 0.35);
         padding: 3em;
         
     }
     .price-wrapper{
+        color: black;
         display: grid;
-        grid-template-columns: 800px 500px;
+        grid-template-columns: 700px 500px;
         margin: auto;
         padding: 3em;
+    }
+    @media (min-width: 414px) and (max-width: 991.98px) {
+        .price-wrapper{
+            font-size: 8pt;
+            color: black;
+            display: grid;
+            grid-template-columns: 150px 100px;
+            margin: auto;
+            padding: 3em;
+        }
     }
 
 </style>

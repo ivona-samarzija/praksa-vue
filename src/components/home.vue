@@ -1,42 +1,43 @@
 <template>
 
-<div class="quote-wrapper">
-   <h3 class="quote m-lg-3 p-lg-5 justify-content-center align-items-center">"Relax  like your life depends on it!"</h3>
- <div class="quote-container justify-content-center align-items-center m-lg-5">
+    <div class="quote-wrapper m-lg-5">
+        <h3 class="quote">"Relax  like <br /> your life <br /> depends on it!"</h3>
 
- <button 
-  class="quote-button" type="button">
-  Zakaži termin</button>
-</div>
-</div>
+
+            <button 
+            class="quote-button" type="button">
+            Zakaži termin</button>
+    </div>
+
 </template>
 
 <style>
 .quote-wrapper{
-    display: flex;
-    flex-flow: row;
-    float: left;
+    display: grid;
 }
 
 .quote{
+    
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-weight: 100;
     font-size: 50pt;
 }
-.quote-container{
-    position: relative;
-  
-  
-}
+
 .quote-button{
     border: none;
     background-color: black;
     color: white; 
     border-radius: 2px;
-    padding: 15px;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition-duration: 0.4s;
-      
+    padding: 10px;
+    outline: none;
+    margin: auto;
+    
 }
 .quote-button:hover{
     background-color: white;
@@ -56,14 +57,10 @@
     font-weight: 100;
     font-size: 50pt;
 }
-.quote-container{
-    display: flex;
-    position: relative;
-    align-content:flex-end;
-  
-}
+
 .quote-button{
     border: none;
+    width: 30%;
     background-color: black;
     color: white; 
     border-radius: 2px;
@@ -71,8 +68,9 @@
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition-duration: 0.4s;
-    position: absolute;
-  
+    
+
+    
 }
 .quote-button:hover{
     background-color: white;
