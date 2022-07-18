@@ -1,3 +1,12 @@
+<script>
+export default {
+  methods: {
+	  say(message) {
+    	alert(message)
+  	}
+	}
+}
+</script>
 <template>
 
     <div class="quote-wrapper m-lg-5">
@@ -5,8 +14,10 @@
 
 
             <button 
-            class="quote-button" type="button">
+            class="quote-button" @click="say('Za narudžbe nazovite nas na broj 091-456/7890')">
             Zakaži termin</button>
+
+
     </div>
 
 </template>
@@ -80,7 +91,4 @@
 }
 }
 </style>
-
-<script setup lang="ts">
-    
-</script>
+>
