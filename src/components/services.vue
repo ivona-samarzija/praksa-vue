@@ -9,7 +9,9 @@
  
     <div class="wrap">
 
-        <img class="image" src="@/assets/massage.webp">
+        
+
+        <img class="image" src="~@/assets/massage.webp">
         
         <div>
             <p class="massage">Masaže</p>
@@ -44,7 +46,7 @@
             </ul>
         </div>
 
-        <img class="bigpic" src="@/assets/facial.webp">
+        <img class="bigpic" src="~@/assets/facial.webp">
     </div>
 
     <h3>Hvala vam na povjerenju!</h3>
