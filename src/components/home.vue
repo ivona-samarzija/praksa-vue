@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 export default {
   methods: {
-	  say(message) {
+	  say(message: any): void {
     	alert(message)
   	}
 	}
