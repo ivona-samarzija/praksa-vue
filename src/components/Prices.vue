@@ -97,6 +97,3 @@
     }
 
 </style>
-<script setup lang="ts">
-    
-</script>

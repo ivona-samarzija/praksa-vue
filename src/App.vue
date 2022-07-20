@@ -5,9 +5,9 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
 
-  <header >
+  <header>
     
-    <div class="wrapper ">
+    <div class="wrapper">
       <h1 class="title">Mind & Body</h1>
      <nav>
 
@@ -22,7 +22,7 @@ import { RouterLink, RouterView } from "vue-router";
 
   <RouterView />
 
-  <footer class="">
+  <footer>
 <!-- Copyright -->
 <div class="copyright">
     © 2022 Copyright
@@ -39,8 +39,18 @@ import { RouterLink, RouterView } from "vue-router";
 #app {
   max-width: 1280px;
   margin: auto;
-  padding: 2rem;
+  padding: 2em;
   font-weight: normal;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: normal;
+  
 }
 
 h1{
@@ -49,6 +59,9 @@ h1{
 h1.title{
     font-weight: 100;
     padding-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 nav{
   text-align: center;
@@ -65,7 +78,8 @@ a,
 
 
 footer{
-    position:absolute;
+    justify-content: center;
+    align-items: center;
     bottom:0;
     width:100%;
     height:10px;
@@ -107,20 +121,26 @@ nav a:first-of-type {
 
 
 
-@media (min-width: 414px) and (max-width: 991.98px) {
- 
 
+@media (min-width: 275px) and (max-width: 991.98px) {
+ 
   header {
 
     padding-right: calc(var(--section-gap) / 2);
   }
+  .wrapper{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
   header .wrapper {
-    margin: 1em;
+    margin: 0em;
   }
 
   nav{
-    font-size: 6pt;
+    font-size: 4pt;
     padding: 0;
     justify-content: center;
     text-align: center;
@@ -128,7 +148,7 @@ nav a:first-of-type {
   }
  
   footer{
-    position:absolute;
+
     bottom:0;
     width:100%;
     height:10px;
