@@ -11,7 +11,7 @@
 
         
 
-        <img class="image" src="~@/assets/massage.jepg">
+        <img class="image" src="../assets/massage.webp">
         
         <div>
             <p class="massage">Masaže</p>
@@ -45,7 +45,7 @@
                 <li>Farbanje obrva</li>
             </ul>
         </div>
-        <img class="bigpic" src="~@/assets/facial.jepg">
+        <img class="bigpic" src="../assets/facial.webp">
     </div>
 
     <h3>Hvala vam na povjerenju!</h3>
