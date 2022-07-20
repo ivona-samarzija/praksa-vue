@@ -9,9 +9,10 @@
  
     <div class="wrap">
 
-        
 
-        <img class="image" src="../assets/massage.jpg">
+        <img class="pic" src="../assets/massage.jpg">
+
+
         
         <div>
             <p class="massage">Masaže</p>
@@ -56,6 +57,12 @@
 </template>
 
 <style>
+    
+    .wrapper-bg{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     .body{
         color: black;
         padding: 5em;
@@ -83,8 +90,8 @@
         text-align: center;
     }
 
-    .image{
-        max-width: 100%;
+    .pic{
+        max-width: 50%;
     }
     .massage{
         margin-left: 1em;
@@ -99,6 +106,31 @@
     h3{
         color: gray;
         font-size: 12pt;
+    }
+
+    @media (min-width: 375px) and (max-width: 991.98px) { 
+        .pic{
+            max-width: 60%;
+            margin-left: 3em;
+            
+        }
+        .bigpic{
+             max-width: 100%;
+        }
+        .wrap{
+            grid-template-columns: 200px 200px;
+            margin: 1em;
+        }
+        .wrapper-bg{
+            margin: 0em;
+            padding: 0em;
+            background-color: rgba(255, 255, 255, 0.35);
+        }
+        .services{
+            max-width: 50%;
+            margin-bottom: 2em;
+            font-size: 10pt;
+        }
     }
 </style>
 

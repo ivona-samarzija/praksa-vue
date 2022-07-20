@@ -28,7 +28,7 @@ export default {
 }
 
 .quote{
-    
+    color: black;
     padding: 1em;
     display: flex;
     flex-direction: row;
