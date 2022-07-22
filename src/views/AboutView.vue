@@ -2,7 +2,7 @@
 
 <div class="bg">
       <div class="text m-lg-5">
-        <h3>Želite termin? Kontaktirajte nas i rezervirajte željeni termin.</h3>
+        <h3 class="h3text">Želite termin? Kontaktirajte nas i rezervirajte željeni termin.</h3>
       
       </div>
       <div class="contact">
@@ -85,7 +85,20 @@
     width:537px;
   }
 
-@media (min-width: 414px) and (max-width: 991.98px) {
+@media (min-width: 375px) and (max-width: 991.98px) {
+  .h3text{
+    font-size: 15pt;
+  }
+  .kontakt{
+    font-size: 15pt;
+    text-align: center;
+  }
+  .contact{
+    text-align: left;
+  }
+  .bg{
+    margin: 0em;
+  }
   .text {
     display: flex;
     align-items: center;

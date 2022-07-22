@@ -125,19 +125,15 @@ nav a:first-of-type {
 @media (min-width: 275px) and (max-width: 991.98px) {
  
   header {
-
-    padding-right: calc(var(--section-gap) / 2);
+    margin: 2em;
+   
   }
   .wrapper{
-
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-  header .wrapper {
-    margin: 0em;
-  }
 
   nav{
     font-size: 4pt;

@@ -68,8 +68,11 @@
 <style>
     h3{
         color: black;
-       text-align: center;
-       padding-bottom: 2em;
+        text-align: center;
+        padding-bottom: 2em;
+    }
+    h4{
+        text-align: left;
     }
     .wrapper-bg{
         color: black;
@@ -81,18 +84,26 @@
     .price-wrapper{
         color: black;
         display: grid;
-        grid-template-columns: 700px 500px;
+        grid-template-columns: 600px 600px;
         margin: auto;
         padding: 3em;
+        text-align: left;
     }
-    @media (min-width: 414px) and (max-width: 991.98px) {
+    @media (min-width: 375px) and (max-width: 991.98px) {
         .price-wrapper{
             font-size: 8pt;
             color: black;
             display: grid;
-            grid-template-columns: 150px 100px;
+            grid-template-columns: 200px 200px;
             margin: auto;
             padding: 3em;
+        }
+        h3{
+            padding: 2em;
+        }
+        h4{
+            text-align: left;
+            padding-left: 2em;
         }
     }
 

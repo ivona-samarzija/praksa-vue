@@ -35,6 +35,7 @@ export default {
     flex-wrap: wrap;
     font-weight: 100;
     font-size: 50pt;
+
 }
 
 .quote-button{
@@ -57,7 +58,7 @@ export default {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-@media (min-width: 414px) and (max-width: 991.98px) {
+@media (min-width: 375px) and (max-width: 991.98px) {
 
     .quote-wrapper{
     display: flex;
@@ -65,8 +66,10 @@ export default {
 }
 
     .quote{
-    font-weight: 100;
-    font-size: 50pt;
+    font-size: 35pt;
+    font-weight: 300;
+    color: black;
+    margin: auto;
 }
 
 .quote-button{
@@ -79,7 +82,7 @@ export default {
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition-duration: 0.4s;
-    
+    margin-bottom: 15em;
 
     
 }
