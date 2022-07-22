@@ -55,6 +55,7 @@
   .kontakt{
     color: gray;
     font-size: 30pt;
+    text-align: center;
     padding-left: 1em;
 
   }
