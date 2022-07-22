@@ -6,7 +6,8 @@
 
     <p class="services">
         Sve počinje jednim dodirom. Masaža ima blagotvorno djelovanje na um i tijelo. Opušta napete mišiće, pospješuje krvotok, oslobađa od psihičke i fizičke napetosti.</p>
- 
+
+
     <div class="wrap">
 
 
@@ -26,9 +27,14 @@
             </ul>
         </div>
     </div>
+
     
 
     <div class="wrap">
+
+
+
+
         
         <div>
             <p class="massage">Depilacija</p>
@@ -82,7 +88,7 @@
     }
     .wrap{
         display: grid;
-        grid-template-columns: 500px 500px;
+        grid-template-columns: 400px 300px;
         margin: auto;
         padding: auto;
         justify-content: center;
@@ -91,7 +97,7 @@
     }
 
     .pic{
-        max-width: 50%;
+        max-width: 100%;
     }
     .massage{
         margin-left: 1em;
@@ -109,6 +115,9 @@
     }
 
     @media (min-width: 375px) and (max-width: 991.98px) { 
+        h1{
+            padding: 1em;
+        }
         .pic{
             max-width: 60%;
             margin-left: 3em;
@@ -118,7 +127,7 @@
              max-width: 100%;
         }
         .wrap{
-            grid-template-columns: 200px 200px;
+            grid-template-columns: 200px 180px;
             margin: 1em;
         }
         .wrapper-bg{
@@ -130,6 +139,11 @@
             max-width: 50%;
             margin-bottom: 2em;
             font-size: 10pt;
+        }
+        ul{
+            font-size: 10pt;
+            margin: 1em;
+            word-wrap: break-word;
         }
     }
 </style>
